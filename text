@@ -1,0 +1,422 @@
+float ww;
+float hh;
+String [] sentences;
+
+void shapeA(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh -10,10,10);
+  //ww +=25;
+}
+void shapeB(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh +7,20,14);
+  //ww +=25;
+}
+void shapeC(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww+8,hh,6,14); 
+  //ww +=25;
+}
+void shapeD(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww -8,hh,6,14);
+  //ww +=25;
+}
+void shapeE(){
+  noStroke();
+  fill(255,255,0,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww +7,hh,14,6); 
+  //ww +=25;
+}
+void shapeF(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww +7,hh -7,14,6);
+  //ww +=25;
+}
+void shapeG(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww +7,hh +5,6,10);
+  //ww +=25;
+}
+void shapeH(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh,12,3);
+  //ww +=25;
+}
+void shapeI(){
+  noStroke();
+  fill(255,255,0,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh,3,12);
+  //ww +=25;
+}
+void shapeJ(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww +7,hh -7,6,14);
+  //ww +=25;
+}
+void shapeK(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww +4,hh,8,12);
+  //ww +=25;
+}
+void shapeL(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww -7,hh -7,6,14);
+  //ww +=25;
+}
+void shapeM(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh +8,12,8);
+  //ww +=25;
+}
+void shapeN(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww -5,hh -5,10,10);
+  //ww +=25;
+}
+void shapeO(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  ellipse(ww,hh,20,20); 
+  //ww +=25;
+}
+void shapeP(){
+  noStroke();
+  fill(255,0,0,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww -7,hh +7,6,14);
+  //ww +=25;
+}
+void shapeQ(){
+  noStroke();
+  fill(0,0,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww +5,hh +5,10,10);
+  //ww +=25;
+}
+void shapeR(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww +5,hh -5,10,10);
+  //ww +=25;
+}
+void shapeS(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh,10,10);
+  //ww +=25;
+}
+void shapeT(){
+  noStroke();
+  fill(255,0,0,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh -10,20,6);
+  //ww +=25;
+}
+void shapeU(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh -5,10,10);
+  //ww +=25;
+}
+void shapeV(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh -3,10,14);
+  //ww +=25;
+}
+void shapeW(){
+  noStroke();
+  fill(0,0,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh -8,12,8);
+  //ww +=25;
+}
+void shapeX(){
+  noStroke();
+  fill(0,0,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh,20,20);
+  //ww +=25;
+}
+void shapeY(){
+  noStroke();
+  fill(0,0,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww,hh -7,20,14);
+  //ww +=25;
+}
+void shapeZ(){
+  noStroke();
+  fill(255,255,255,175);
+  rectMode(CENTER);
+  ellipse(ww,hh,20,20);
+  rect(ww -7,hh,14,6);
+  //ww +=25;
+}
+
+
+//float ww;
+//float hh;
+//String [] sentences;
+
+void setup(){
+  float ww = 0;
+  float hh = 20;
+  size(1800,600);
+  background(0);
+  sentences = new String[9];
+  sentences[0] = "seven times have i despised my soul";
+  sentences[1] = "kahlil gibran";
+  sentences[2] = "the first time when i saw her being meek that she might attain height";
+  sentences[3] = "the second time when i saw her limping before the crippled";
+  sentences[4] = "the third time when she was given to choose between the hard and the easy, and she chose the easy";
+  sentences[5] = "the fourth time when she committed a wrong, and comforted herself that others also commit wrong";
+  sentences[6] = "the fifth time when she forbore for weakness, and attributed her patience to strength.";
+  sentences[7] = "the sixth time when she despised the ugliness of a face, and knew not that it was one of her own masks";
+  sentences[8] = "and the seventh time when she sang a song of praise, and deemed it a virtue";
+}
+
+void draw(){
+  //background(0);
+  //float ww = 0;
+  //float hh = 20;
+  for(int i = 0; i< 9; i++){
+    //float hh = 20*i;
+    ww =20;
+    hh += 50;
+    for(int j = 0; j< sentences[i].length(); j++){
+      char cc = sentences[i].charAt(j);
+    switch(cc){
+      case 'a':
+        shapeA();
+        //ww = ww +20;
+        break;
+      case 'b':
+        shapeB();
+        //ww = ww+20;
+        break;
+      case 'c':
+        shapeC();
+        //ww +=20;
+        break;
+      case 'd':
+        shapeD();
+        //ww +=20;
+        break;
+      case 'e':
+        shapeE();
+        //ww +=20;
+        break;
+      case 'f':
+        shapeF();
+        //ww +=20;
+        break;
+      case 'g':
+        shapeG();
+        //ww +=20;
+        break;
+      case 'h':
+        shapeH();
+        //ww +=20;
+        break;
+      case 'i':
+        shapeI();
+        //ww +=20;
+        break;
+      case 'j':
+        shapeJ();
+        //ww +=20;
+        break;
+      case 'k':
+        shapeK();
+        break;
+      case 'l':
+        shapeL();
+        //ww +=20;
+        break;
+      case 'm':
+        shapeM();
+        //ww +=20;
+        break;
+      case 'n':
+        shapeN();
+        //ww +=20;
+        break;
+      case 'o':
+        shapeP();
+        //ww +=20;
+        break;
+      case 'p':
+        shapeP();
+        //ww +=20;
+        break;
+      case 'q':
+        shapeQ();
+        //ww +=20;
+        break;
+      case 'r':
+        shapeR();
+        //ww +=20;
+        break;
+      case 's':
+        shapeS();
+        //ww +=20;
+        break;
+      case 't':
+        shapeT();
+        //ww +=20;
+        break;
+      case 'u':
+        shapeU();
+        //ww +=20;
+        break;
+      case 'v':
+        shapeV();
+        //ww +=20;
+        break;
+      case 'w':
+        shapeW();
+        //ww +=20;
+        break;
+      case 'x':
+        shapeX();
+        //ww +=20;
+        break;
+      case 'y':
+        shapeY();
+        //ww +=20;
+        break;
+      case 'z':
+        shapeZ();
+        //ww +=20;
+        break;
+    }
+    ww +=25;
+    int cl = int(cc);
+    println(cl);
+    frameRate(1);
+    //hh = 20*i;
+  }
+    //ww +=20;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  //noStroke();
+  //fill(255,255,255,175);
+  //rectMode(CENTER);
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2 -50,50,50);       //A
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2 +35,100,70);      //B
+//ellipse(width/2,height/2,100,100);
+//rect(width/2+40,height/2,30,70);        //C
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 -40,height/2,30,70);       //D
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 +35,height/2,70,30);       //E
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 +35,height/2 -35,70,30);   //F
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 +35,height/2 +25,30,50);   //G
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2,60,15);           //H
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2,15,60);           //I
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 +35,height/2 -35,30,70);   //J
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 +20,height/2,40,60);       //K
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 -35,height/2 -35,30,70);   //L
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2 +40,60,40);       //M
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 -25,height/2 -25,50,50);   //N
+//ellipse(width/2,height/2,100,100);
+//ellipse(width/2,height/2,100,100);      //O
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 -35,height/2 +35,30,70);   //P
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 +25,height/2 +25,50,50);   //Q
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 +25,height/2 -25,50,50);   //R
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2,50,50);           //S
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2 -50,100,30);      //T
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2 -25,50,50);       //U
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2 -15,50,70);       //V
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2 -40,60,40);       //W
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2,100,100);         //X
+//ellipse(width/2,height/2,100,100);
+//rect(width/2,height/2 -35,100,70);      //Y
+//ellipse(width/2,height/2,100,100);
+//rect(width/2 -35,height/2,70,30);       //Z
+}
